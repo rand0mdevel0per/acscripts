@@ -6,9 +6,12 @@ param(
     [string]$InstallPath = $PWD
 )
 
-# 设置错误处理
+# 设置错误处理和编码
 $ErrorActionPreference = "Stop"
+chcp 65001 | Out-Null
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+[Console]::InputEncoding = [System.Text.Encoding]::UTF8
+$OutputEncoding = [System.Text.Encoding]::UTF8
 
 # 配置常量
 $PYTHON_URL = "https://www.python.org/ftp/python/3.15.0/python-3.15.0a5-embed-amd64.zip"
