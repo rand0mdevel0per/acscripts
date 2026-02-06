@@ -3,7 +3,7 @@
 # 优先使用系统已安装的 Python 和 Git
 
 param(
-    [string]$InstallPath = "E:\tmpfs"
+    [string]$InstallPath = $PWD
 )
 
 # 设置错误处理
