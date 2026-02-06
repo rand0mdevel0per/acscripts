@@ -12,9 +12,9 @@ $ErrorActionPreference = "Stop"
 
 # 配置常量
 $PYTHON_URL = "https://www.python.org/ftp/python/3.15.0/python-3.15.0a5-embed-amd64.zip"
-$GIT_URL = "https://gh-proxy.com/https://github.com/git-for-windows/git/releases/download/v2.53.0.windows.1/PortableGit-2.53.0-64-bit.7z.exe"
-$REPO_URL = "https://gh-proxy.com/https://github.com/MoFox-Studio/MoFox-Core.git"
-$NAPCAT_URL = "https://gh-proxy.com/https://github.com/NapNeko/NapCatQQ/releases/latest/NapCat.Shell.Windows.OneKey.zip"
+$GIT_URL = "https://hk.gh-proxy.org/https://github.com/git-for-windows/git/releases/download/v2.53.0.windows.1/PortableGit-2.53.0-64-bit.7z.exe"
+$REPO_URL = "https://hk.gh-proxy.org/https://github.com/MoFox-Studio/MoFox-Core.git"
+$NAPCAT_URL = "https://hk.gh-proxy.org/https://github.com/NapNeko/NapCatQQ/releases/latest/NapCat.Shell.Windows.OneKey.zip"
 
 # 颜色输出函数
 function Write-ColorOutput {
